@@ -1,0 +1,67 @@
+{
+  "id" : "https://ReinDebrulle.github.io/Sint-Janshospitaal/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in ReinDebrulle/Sint-Janshospitaal project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 4775,
+    "id" : "https://ReinDebrulle.github.io/Sint-Janshospitaal/images/Mouse1/canvas/",
+    "label" : {
+      "none" : [ "Mouse1" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://ReinDebrulle.github.io/Sint-Janshospitaal/images/Mouse1/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://ReinDebrulle.github.io/Sint-Janshospitaal/images/Mouse1/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 150,
+              "height" : 155
+            }, {
+              "width" : 299,
+              "height" : 310
+            }, {
+              "width" : 597,
+              "height" : 619
+            }, {
+              "width" : 1194,
+              "height" : 1237
+            }, {
+              "width" : 2388,
+              "height" : 2473
+            }, {
+              "width" : 4775,
+              "height" : 4946
+            } ],
+            "profile" : "level0",
+            "width" : 4775,
+            "id" : "https://ReinDebrulle.github.io/Sint-Janshospitaal/images/Mouse1",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 4946
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4775,
+          "id" : "https://ReinDebrulle.github.io/Sint-Janshospitaal/images/Mouse1/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 4946
+        },
+        "target" : "https://ReinDebrulle.github.io/Sint-Janshospitaal/images/Mouse1/canvas/"
+      } ]
+    } ],
+    "height" : 4946
+  } ]
+}
